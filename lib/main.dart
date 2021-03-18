@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 
-// このメイン関数はflutterアプリの開始地点
+// thee main func is the entrance point for all my flutter apps.
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text('hello world'),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('I am rich'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
       ),
     ),
   );
